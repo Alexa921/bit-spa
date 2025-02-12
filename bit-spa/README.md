@@ -1,3 +1,7 @@
+# bit-spa
+Este proyecto es parte de mi formacion en BIT, este va a ser un proyecto hecho con Angular.
+Alexandra Restrepo Agudelo
+
 # BitSpa
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
