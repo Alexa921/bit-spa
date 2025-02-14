@@ -4,7 +4,7 @@ import { FoundationsComponent } from './components/foundations/foundations.compo
 import { ContactComponent } from './components/contact/contact.component';
 
 export const routes: Routes = [
-    { path: 'contact', component: ContactComponent},
-    {path: "inicio", component: HomeComponent},
-    {path: "fundamentos", component: FoundationsComponent},
+    { path: 'contact', component: ContactComponent },
+    { path: "inicio", component: HomeComponent },
+    { path: "fundamentos", component: FoundationsComponent },
 ];
