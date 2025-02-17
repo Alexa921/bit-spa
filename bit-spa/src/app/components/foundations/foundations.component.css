@@ -1,0 +1,14 @@
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    width: 500px;
+    height: 370px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.texto-pupulares {
+    font-size: 40px;
+    color: gray;
+    margin-top: 130px;
+    margin-left: 750px;
+}

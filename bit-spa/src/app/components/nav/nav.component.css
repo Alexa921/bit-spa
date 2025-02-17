@@ -1,5 +1,13 @@
-.nav-link {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-}
+.fundamentos{
+    margin-left: -1100px;
+    color: aliceblue;
+    
+      font-family: "Gabarito", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .cuadro {
+      background-color: #eea499;
+    }
