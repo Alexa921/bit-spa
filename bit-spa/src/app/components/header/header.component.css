@@ -25,3 +25,12 @@ header {
     margin-top: -50px;
     margin-left: 300px;
 }
+
+@media (max-width: 1024px) {
+    .texto-header {
+        margin-left: 100px;
+    }
+    .logo-header {
+        margin-left: 50px;
+    }
+}

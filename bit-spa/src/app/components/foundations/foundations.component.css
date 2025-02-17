@@ -8,7 +8,63 @@
 
 .texto-pupulares {
     font-size: 40px;
-    color: gray;
+    color: rgb(110, 110, 110);
     margin-top: 130px;
     margin-left: 750px;
+}
+
+@media (max-width: 1444px) {
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        width: 400px;
+        height: 270px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    .texto-pupulares {
+        font-size: 40px;
+        margin-top: 130px;
+        margin-left: 530px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        width: 400px;
+        height: 270px;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .texto-pupulares {
+        font-size: 40px;
+        margin-top: 130px;
+        margin-left: 330px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        width: 300px;
+        height: 190px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .texto-pupulares {
+        font-size: 35px;
+        margin-top: 130px;
+        margin-left: 230px;
+    }
+}
+
+@media (max-width: 375px) {
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        width: 300px;
+        height: 190px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .texto-pupulares {
+        font-size: 30px;
+        margin-top: 130px;
+        margin-left: 40px;
+    }
 }

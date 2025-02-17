@@ -189,29 +189,153 @@
     border-radius: 10px;
 }
 
+@media (max-width: 1444px) {
+    .titulo-perfil-programadores {
+        font-size: 40px;
+        margin-left: 500px;
+        margin-top: 150px;
+        margin-bottom: 70px;
+    }
+
+    .contenedor1-perfil-programadores {
+        margin-left: 140px;
+    }
+
+    .contenedor2-perfil-programadores {
+        margin-left: 430px;
+    }
+
+    .contenedor3-perfil-programadores {
+        margin-left: 720px;
+    }
+
+    .contenedor4-perfil-programadores {
+        margin-left: 1010px;
+    }
+
+    .contenedor5-perfil-programadores {
+        margin-left: 140px;
+    }
+
+    .contenedor6-perfil-programadores {
+        margin-left: 430px;
+    }
+
+    .contenedor7-perfil-programadores {
+        margin-left: 720px;
+    }
+
+    .contenedor8-perfil-programadores {
+        margin-left: 1010px;
+    }
+
+    .contenedor9-perfil-programadores {
+        margin-left: 140px;
+    }
+    .contenedor10-perfil-programadores {
+        margin-left: 430px;
+    }
+
+    .contenedor11-perfil-programadores {
+        margin-left: 720px;
+    }
+
+    .contenedor12-perfil-programadores {
+        margin-left: 1010px;
+    }
+}
+
 @media (max-width: 1024px) {
 
     .titulo-perfil-programadores {
-        font-size: 30px;
-        margin-left: 200px;
-        margin-top: 200px;
+        font-size: 40px;
+        margin-left: 280px;
+        margin-top: 150px;
+        margin-bottom: 70px;
     }
 
-    .contenedor1-perfil-programadores,
-    .contenedor2-perfil-programadores,
-    .contenedor3-perfil-programadores,
-    .contenedor4-perfil-programadores,
-    .contenedor5-perfil-programadores,
-    .contenedor6-perfil-programadores,
-    .contenedor7-perfil-programadores,
-    .contenedor8-perfil-programadores,
-    .contenedor9-perfil-programadores,
-    .contenedor10-perfil-programadores,
-    .contenedor11-perfil-programadores,
+    .contenedor1-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+
+    .contenedor2-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: -430px;
+        margin-left: 550px;
+    }
+
+    .contenedor3-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+
+    .contenedor4-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: -430px;
+        margin-left: 550px;
+    }
+
+    .contenedor5-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+
+    .contenedor6-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: -350px;
+        margin-left: 550px;
+    }
+
+    .contenedor7-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+
+    .contenedor8-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: -430px;
+        margin-left: 550px;
+    }
+
+    .contenedor9-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+    .contenedor10-perfil-programadores {
+        width: 30%;
+        height: 350px;
+        margin-top: -430px;
+        margin-left: 550px;
+    }
+
+    .contenedor11-perfil-programadores
+     {
+        width: 30%;
+        height: 350px;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+
     .contenedor12-perfil-programadores {
-        width: 90%;
-        height: 250px;
-        margin: 20px auto;
+        width: 30%;
+        height: 350px;
+        margin-top: -430px;
+        margin-left: 550px;
     }
 
     .foto-programador,
@@ -226,17 +350,17 @@
     .foto-programador10,
     .foto-programador11,
     .foto-programador12 {
-        margin: 50px 50px;
+        margin: 50px 80px;
     }
 
     .nombre-programador, .nombre-programador2, .nombre-programador3, .nombre-programador4, .nombre-programador5, .nombre-programador6,
     .nombre-programador7, .nombre-programador8, .nombre-programador9, .nombre-programador10, .nombre-programador11, .nombre-programador12 {
-        margin-top: -170px;
-        margin-left: 400px;
+        margin-top: 10px;
+        margin-left: 5px;
     }
     .portafolio-programador, .portafolio-programador2, .portafolio-programador3, .portafolio-programador4, .portafolio-programador5, .portafolio-programador6,
     .portafolio-programador7, .portafolio-programador8, .portafolio-programador9, .portafolio-programador10, .portafolio-programador11, .portafolio-programador12   {
-        margin-left: 400px;
+        margin-left: 5px;
     }
 }
 
@@ -245,8 +369,8 @@
 @media (max-width: 768px) {  
     
     .titulo-perfil-programadores {
-        font-size: 30px;
-        margin-left: 200px;
+        font-size: 40px;
+        margin-left: 160px;
         margin-top: 200px;
     }
 
@@ -297,8 +421,9 @@
 
 @media (max-width: 375px) { 
     .titulo-perfil-programadores {
-        font-size: 20px;
-        margin-left: 27px;
+        font-size: 25px;
+        margin-top: 100px;
+        margin-left: 30px;
         text-align: center;
     }
 
@@ -339,12 +464,12 @@
     .nombre-programador, .nombre-programador2, .nombre-programador3, .nombre-programador4, .nombre-programador5, .nombre-programador6,
     .nombre-programador7, .nombre-programador8, .nombre-programador9, .nombre-programador10, .nombre-programador11, .nombre-programador12 {
         margin-top: -95px;
-        margin-left: 180px;
+        margin-left: 130px;
         font-size: 17px;
     }
     .portafolio-programador, .portafolio-programador2, .portafolio-programador3, .portafolio-programador4, .portafolio-programador5, .portafolio-programador6,
     .portafolio-programador7, .portafolio-programador8, .portafolio-programador9, .portafolio-programador10, .portafolio-programador11, .portafolio-programador12   {
-        margin-left: 180px;
+        margin-left: 130px;
         font-size: 15px;
     }
 

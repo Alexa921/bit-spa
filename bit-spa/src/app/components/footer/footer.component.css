@@ -25,3 +25,50 @@ footer {
     margin-top: -40px;
     margin-left: 400px;
 }
+
+@media (max-width: 1444px) {
+    .texto-footer {
+        font-size: 16px;
+        padding-top: -50px;
+        margin-left: 850px;
+    }
+    .logo-footer {
+        margin-left: 320px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .texto-footer {
+        font-size: 16px;
+        padding-top: -50px;
+        margin-left: 550px;
+    }
+    .logo-footer {
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .texto-footer {
+        font-size: 15px;
+        padding-top: -50px;
+        margin-left: 400px;
+    }
+    .logo-footer {
+        margin-left: 170px;
+    }
+}
+
+@media (max-width: 375px) {
+    .texto-footer {
+        font-size: 12px;
+        padding-top: -50px;
+        margin-left: 140px;
+    }
+    .logo-footer {
+        width: 40px;
+        height: 40px;
+        margin-left: 40px;
+    }
+}
