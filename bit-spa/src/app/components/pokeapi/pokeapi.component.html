@@ -1,31 +1,15 @@
 <h1>PokéApi</h1>
 <hr />
 <section>
-  <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xx-6 g-4">
     @for (pokemon of pokemons; track $index) {
     <div class="col">
-      <div class="card">
-        <img src="Bulbasaur.webp" class="img-pokemon card-img-top" alt="Pokemon">
+      <div class="contenedor-pokemon card">
+        <img src="{{ pokemon.img }}" class="img-pokemon card-img-top" alt="Imagen de {{ pokemon.name }}">
         <div class="card-body">
-          <h5 class="card-title">{{ pokemon.name }}</h5>
         </div>
+        <div class="contenedor-titulo"><h5 class="card-title">{{ pokemon.name }}</h5></div>
       </div>
-    </div>
-    <div class="col">
-        <div class="card">
-          <img src="ivysaur.png" class="img-pokemon card-img-top" alt="Pokemon">
-          <div class="card-body">
-            <h5 class="card-title">{{ pokemon.name }}</h5>
-          </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card">
-          <img src="Venusaur.png" class="img-pokemon card-img-top" alt="Pokemon">
-          <div class="card-body">
-            <h5 class="card-title">{{ pokemon.name }}</h5>
-          </div>
-        </div>
     </div>
     }
   </div>
