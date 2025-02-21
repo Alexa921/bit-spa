@@ -23,3 +23,21 @@
         <img class="img6" src="imagen-contenedor4.jpg" alt="imagen populares">
     </div>
 </section>
+<hr />
+<div>
+    <h3>reactive</h3>
+    <form [formGroup]="formLogin" (ngSubmit)="manejarLogin()">
+      <input type="text" placeholder="Username" formControlName="usuario" />
+      <input
+        type="password"
+        placeholder="Password"
+        formControlName="contrasenia"
+      />
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+  </div>
+</section>
+<hr />
+<section>
+  <h2>Interfaces</h2>
+</section>
