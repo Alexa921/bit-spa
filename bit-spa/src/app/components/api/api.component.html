@@ -1,2 +1,11 @@
-<p>api works!</p>
+<main>
+    <article>
+   @for (item of personajes; track $index) {
+    <div class="card">
+        <h1>{{item.name}}</h1>
+        <img [src]="item.image" alt="personaje ricky ">
+    </div>
+   }
+    </article>
+</main>
 

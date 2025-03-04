@@ -20,6 +20,5 @@ export class ContactComponent {
     {img: 'https://github.com/DANY10cruz.png', name: 'Daniel Cruz', enlace: 'https://github.com/DANY10cruz'},
     {img: 'https://avatars.githubusercontent.com/u/55107141?v=4', name: 'Javier Ándres', enlace: 'https://github.com/javierandres-dev'},
     {img: 'foto-portafolio-bit.jpeg', name: 'Bit equipo', enlace: 'https://github.com/javierandres-dev/bit-g09/tree/main/workshops/bit-pagina-equipo'},
-    /* {img: '', name: '', enlace: ''} */
   ]
 }
